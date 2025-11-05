@@ -1,5 +1,4 @@
 /client/node_modules
-/client/src/assets
 /client/.env
 
 /server/.env
