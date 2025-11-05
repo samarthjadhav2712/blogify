@@ -7,9 +7,14 @@ const Footer = () => {
         <div className='flex flex-col md:flex-row items-start justify-between gap-10 py-10 border-b border-gray-500/30 text-gray-500'>
             <div>
                 <img src={assets.blogifyLogo} alt="logo" className='w-32 sm:w-44'/>
-                <p className='max-w-[410px] mt-6'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ex fuga architecto cupiditate fugit magni consequatur corrupti inventore quam, veritatis dolores enim quod voluptatum qui? Eum ullam quas temporibus quisquam.
-                </p>
+                <div className='max-w-[410px] mt-6'>
+                <p>Blogify provides:</p>
+                <ul className='list-disc list-inside pl-4 mt-2 flex flex-col'>
+                    <li>Public blog listing and blog detail pages (read-only for public).</li>
+                    <li>Admin panel to add/list/publish/delete blogs and moderate comments.</li>
+                    <li>Image uploads (ImageKit) and AI-assisted content generation (Google Gemini).</li>
+                </ul>
+            </div>
             </div>
             <div className='flex flex-wrap justify-between w-full md:w-[45%] gap-5'>
                 {footer_data.map((section , index)=>(
