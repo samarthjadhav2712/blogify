@@ -12,7 +12,7 @@ import facebook_icon from './facebook_icon.svg'
 import googleplus_icon from './googleplus_icon.svg'
 import twitter_icon from './twitter_icon.svg'
 import logo from './logo.svg'
-import blogifylogo from './blogifylogo.png'
+import blogifyLogo from './blogifyLogo.png'
 import arrow from './arrow.svg'
 import logo_light from './logo_light.svg'
 import blog_icon from './blog_icon.png'
@@ -39,7 +39,7 @@ export const assets = {
     googleplus_icon,
     twitter_icon,
     logo,
-    blogifylogo,
+    blogifyLogo,
     arrow,
     logo_light,
     blog_icon,
